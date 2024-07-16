@@ -23,7 +23,7 @@ const Projects = () => {
                 <div className="opacity-0 w-0 transition-all duration-500 group-hover:opacity-90 group-hover:w-full bg-[gray]/70 absolute inset-0 flex flex-col justify-center items-center">
                   <span className='text-2xl font-bold text-white tracking-wider'>Project</span>
                   <div className="pt-8 text-center">
-                    <a href={project.url}>
+                    <a href={project.url} target='_blank'>
                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live</button>
                     </a>
                   </div>

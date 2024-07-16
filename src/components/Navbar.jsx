@@ -2,7 +2,11 @@ import React, {useState} from 'react'
 import logo from '../assets/images/Arpita.png'
 import logox from '../assets/images/Arpita1.png'
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import { motion } from "framer-motion"
+
 
 
 // import { FaLinkedin } from "react-icons/fa6";
@@ -38,9 +42,10 @@ const Navbar = () => {
          animate = {{x: 0, opacity: 1}}
          transition = {{duration: 1, delay: 1.2}}
         className='hidden md:flex'>
-          <li className="p-5 text_color transition-all duration-300 hover:bg-gradient-to-r hover:from-purple-400 hover:via-pink-400 hover:to-blue-200 inline-block"><a href="#about">About</a></li>
-          <li className="p-5 text_color transition-all duration-500 hover:bg-gradient-to-r hover:from-purple-400 hover:via-pink-400 hover:to-blue-200 inline-block"><a href="#work">Work</a></li>
-          <li className="p-5 text_color transition-all duration-500 hover:bg-gradient-to-r hover:from-purple-400 hover:via-pink-400 hover:to-blue-200 inline-block"><a href="#contact">Contact</a></li>
+          <li className="p-5 inline-block"><a href="https://www.facebook.com/arpita.nath.7921" target='_blank'><FaFacebook className='text-4xl text-[#dba5f0] transition-all duration-300 hover:text-white hover:scale-90' /></a></li>
+          <li className="p-5 inline-block"><a href="https://www.linkedin.com/in/arpita-nath-web/" target='_blank'><FaLinkedin className='text-4xl text-[#dba5f0] transition-all duration-300 hover:text-white hover:scale-90' />
+          </a></li>
+          <li className="p-5 inline-block"><a href="https://github.com/Arpita-Nath" target='_blank'><FaGithub className='text-4xl text-[#dba5f0] transition-all duration-300 hover:text-white hover:scale-90' /></a></li>
         </motion.ul>
       </div>
 
