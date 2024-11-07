@@ -53,7 +53,7 @@ const Hero = () => {
                 initial = "hidden"
                 animate = "visible"
                 className="mt-16 flex gap-x-8">
-                    <a download href="../../public/Arpita_Nath_JOB.pdf" className="btn"><span className="z-50">Download CV</span></a>
+                    <a download href="./public/Arpita_Nath_JOB.pdf" className="btn"><span className="z-50">Download CV</span></a>
                     <a href="#contact" className="btn"><span className="z-50">Contact</span></a>
                     {/* <a href="#contact" className="py-3 px-6 w-full rounded-xl bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none">Contact</a> */}
                 </motion.div>
