@@ -7,6 +7,7 @@ import Technologies from './components/Technologies'
 import Experiences from './components/Experiences'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Education from './components/Education';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             <Hero />
             <About />
             <Technologies />
+            <Education />
             <Experiences />
             <Projects />
             <Contact />
